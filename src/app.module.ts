@@ -17,6 +17,7 @@ import { RolesModule } from './roles/roles.module';
       username: 'postgres_user',
       password: 'postgres_password',
       database: 'raci',
+      synchronize: true,
       autoLoadEntities: true,
     }),
     TasksModule,
